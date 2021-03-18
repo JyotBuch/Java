@@ -1,3 +1,5 @@
+//Java program to get factorial of numbers
+
 package factorialofnos;
 
 import java.util.Scanner;
