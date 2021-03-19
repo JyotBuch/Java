@@ -1,3 +1,5 @@
+//Java Program to Find LCM of two Numbers
+
 package lcmoftwonumbers;
 import java.util.*;
 
