@@ -1,4 +1,5 @@
 package matrixmultiplication;
+
 import java.util.*;
 
 public class multimatrix {
@@ -25,7 +26,6 @@ public class multimatrix {
 				m1[i][j]=sc.nextInt();
 			}
 		}
-		sc.close();
 		return m1;
 		}
 	
