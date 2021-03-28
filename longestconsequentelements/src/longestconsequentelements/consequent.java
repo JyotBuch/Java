@@ -23,7 +23,7 @@ public class consequent {
 		int count=0,longestS=0;
 		for(int i=0;i<array.length;i++) {
 			count=0;
-			for(int j=0,series=array[i];j<(array.length);j++,series++) {
+			for(int j=i,series=array[i];j<(array.length);j++,series++) {
 				if(array[j]==series)
 					count++;
 			}
