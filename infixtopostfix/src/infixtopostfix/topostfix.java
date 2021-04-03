@@ -38,7 +38,7 @@ class topostfix
     }
 	public static int prec(char c)
     {
-        if (c == '×' || c == '/' || c=='*') {
+        if (c == 'x' || c == '/' || c=='*') {
             return 1;
         }
  
@@ -62,7 +62,7 @@ class topostfix
  
     public static void main(String[] args)
     {
-        String infix = "a*b+c";
+        String infix = "A+B^C*D+E^5";//5EDCBA^+^+*
  
         ToPostfix(infix);
     }
