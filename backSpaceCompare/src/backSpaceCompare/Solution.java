@@ -15,25 +15,30 @@ public class Solution {
 			System.out.println("Strings are unequal");
 	}
 
-	public static boolean backspaceCompare(String S, String T) {
-        // O(n+m)
-        return delete(S).equals(delete(T));
-    }
-    
-    private static String delete(String s) {
-        Stack<Character> stk = new Stack<>();
-        char[] ch = s.toCharArray();
-        for (int i = 0 ; i < s.length(); i++) {
-            if (ch[i]!='#') {
-                stk.push(ch[i]);
-            } else {
-                if (!stk.isEmpty()) {
-                    stk.pop();
-                }
+	public String Compare(String S){
+         Stack<Character> ar=new Stack<>();
+        StringBuilder as=new StringBuilder();
+        for(int i=0;i<S.length();i++){
+            if(S.charAt(i)=='#' && ar.size()!=0 && ar.peek()!='#'){
+                ar.pop();
+                continue;
+            }
+            ar.add(S.charAt(i));
+        }
+        while(ar.size()!=0){
+            if(ar.peek()=='#'){
+                ar.pop();
+            }
+            else{
+            as.append(ar.pop());
             }
         }
-        
-        return String.valueOf(stk);
+        return as.reverse().toString();
+    }
+    public boolean backspaceCompare(String S, String T) {
+        S=Compare(S);
+        T=Compare(T);
+        return S.equals(T);
     }
 
 }
