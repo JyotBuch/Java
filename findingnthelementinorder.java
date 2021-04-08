@@ -32,23 +32,7 @@ public class findingnthelementinorder {
 	}
 
     void search(Node current, int value) {
-        /*if(value<=current.data){
-            while(current.data!=value)
-            {
-                current=search(current.leftChild,value);
-            }
-        }
-        else if(value>=current.data){
-            while(current.data!=value)
-            {
-                current=search(current.rightChild,value);
-            }
-        }
-        /*if(current.data==value)
-            System.out.println(current.data+" Found");
-        else
-            System.out.println(current.data+" not found");*/
-        
+              
     if (current == null) 
     return; 
     if(current!=null)
@@ -59,24 +43,10 @@ public class findingnthelementinorder {
         }
         search(current.rightChild, value);
     }
-
-        //return current;
+	    
     }
 
-   /* void NthInorder( Node node, int n) 
-{  
-    if (node == null) 
-        return; 
-    if (count <= n) { 
-        NthInorder(node.leftChild, n); 
-        count++; 
-        if (count == n) 
-            System.out.printf("%d ", node.data); 
-        NthInorder(node.rightChild, n); 
-    } 
-} */
-
-    
+   
 
     public static void main(String[] args){
         findingnthelementinorder  tree = new findingnthelementinorder ();
@@ -88,16 +58,6 @@ public class findingnthelementinorder {
 		tree.insert(root, 9);
 		tree.insert(root, 12);
 		tree.insert(root, 13);
-        /*Node check=tree.search(root,9);
-        if(check.data==9)
-            System.out.println("Element Found");
-        else
-            System.out.println("Element not Found");*/
-        /*Node check=tree.NthInorder(root,9);
-           if(check.data==9)
-               System.out.println("Element Found");
-           else
-               System.out.println("Element not Found");*/
-        tree.search(root,12);
+                tree.search(root,12);
     }
 }
