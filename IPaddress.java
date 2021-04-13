@@ -18,5 +18,11 @@ class Solution{
 
 //Write your code here
 class MyRegex{
-    public String pattern = "((\\d|\\d\\d|[0-1]\\d\\d|2[0-4][0-9]|25[0-5])\\.){3}(\\d|\\d\\d|[0-1]\\d\\d|2[0-4][0-9]|25[0-5])";
+    /*
+        [01]?\\d{1,2} matches numbers 0-199
+        2[0-4]\\d matches number 200-249
+        25[0-5] matches numbers 250-255
+    */
+    String num = "([01]?\\d{1,2}|2[0-4]\\d|25[0-5])";
+    String pattern = num+"."+num+"."+num+"."+num;
     }
