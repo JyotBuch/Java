@@ -1,3 +1,5 @@
+//Codeforces 236 A https://codeforces.com/problemset/problem/236/A
+
 import java.util.Scanner;
 
 public class boyorgirl {
