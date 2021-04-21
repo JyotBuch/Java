@@ -1,3 +1,5 @@
+//Codeforces 50 A https://codeforces.com/problemset/problem/50/A
+
 import java.util.*;
 public class dominopiling {
     public static void main(String[] args){
