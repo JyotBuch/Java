@@ -1,3 +1,5 @@
+//Codeforces 281 A https://codeforces.com/problemset/problem/281/A
+
 import java.util.Scanner;
 
 public class wordCapitalization {
