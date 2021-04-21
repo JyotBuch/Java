@@ -1,3 +1,5 @@
+//Codeforces 112 A https://codeforces.com/problemset/problem/112/A
+
 import java.util.Scanner;
  
 public class petya {
