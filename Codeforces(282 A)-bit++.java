@@ -1,3 +1,5 @@
+//Codeforces 282 A bit++ https://codeforces.com/problemset/problem/282/A
+
 import java.util.Scanner;
 
 public class bitplusplus {
@@ -14,11 +16,6 @@ public class bitplusplus {
                 else if(operation[i].equalsIgnoreCase("--x") || operation[i].equalsIgnoreCase("x--"))
                     --count;
             }
-            System.out.println(count);
-            /*for(int i=0;i<n;i++)
-            {
-                System.out.print(operation[i]+" ");
-            }*/
-            
+            System.out.println(count);            
         }
 }
