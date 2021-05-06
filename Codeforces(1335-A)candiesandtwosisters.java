@@ -1,3 +1,5 @@
+//Codeforces 1335 A https://codeforces.com/problemset/problem/1335/A
+
 import java.util.Scanner;
 
 public class candiesandtwosisters {
