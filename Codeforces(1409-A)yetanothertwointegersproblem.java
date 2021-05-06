@@ -1,3 +1,5 @@
+// Codeforces 1409 A https://codeforces.com/problemset/problem/1409/A
+
 import java.util.Scanner;
 
 public class yetanothertwointegersproblem {
