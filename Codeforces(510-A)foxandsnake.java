@@ -1,3 +1,5 @@
+// Codeforces 510 A https://codeforces.com/problemset/status?my=on
+
 import java.util.Scanner;
 
 public class foxandsnake {
