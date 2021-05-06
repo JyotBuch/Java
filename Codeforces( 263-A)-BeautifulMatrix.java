@@ -1,3 +1,5 @@
+//Codeforces 283 A https://codeforces.com/problemset/problem/263/A
+
 import java.util.Scanner;
 
 public class beautifulmatrix {
