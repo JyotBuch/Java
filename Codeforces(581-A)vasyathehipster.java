@@ -1,3 +1,5 @@
+// Codeforces 581 A https://codeforces.com/problemset/problem/581/A
+
 import java.util.Scanner;
 
 public class vasyathehipster {
