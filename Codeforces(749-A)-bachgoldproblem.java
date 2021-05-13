@@ -1,3 +1,5 @@
+//Codeforces 749 A https://codeforces.com/problemset/problem/749/A
+
 import java.util.Scanner;
 
 public class bachgoldproblem {
